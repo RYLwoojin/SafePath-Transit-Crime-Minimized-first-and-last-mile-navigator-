@@ -1,0 +1,21 @@
+# Data Manipulation & Core
+pandas
+
+# Geospatial Analysis
+geopandas
+shapely
+geopy
+
+# Network Graph & Routing
+networkx
+osmnx
+
+# Visualization & Mapping
+matplotlib
+folium
+
+# Web Application UI
+streamlit
+
+# JupyterIPython display (Optional but recommended for notebooks)
+ipython
