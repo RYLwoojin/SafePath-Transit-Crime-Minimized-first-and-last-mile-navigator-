@@ -19,7 +19,7 @@ A multimodal, data-driven navigation algorithm designed to minimize pedestrian c
 ---
 
 ## 📂 Repository Structure
-\`\`\`text
+```
 ├── Data/
 │   ├── Crime Data/        # Place raw municipal crime CSVs here
 │   ├── Transit Data/      # Extracted TransLink GTFS text files here
@@ -35,7 +35,7 @@ A multimodal, data-driven navigation algorithm designed to minimize pedestrian c
 ├── SafeRouting.ipynb      # Main Jupyter Notebook detailing the algorithm process
 ├── requirements.txt       # Python dependencies
 └── README.md
-\`\`\`
+```
 
 
 ## 🚀 How to Run the Project
