@@ -42,21 +42,21 @@ A multimodal, data-driven navigation algorithm designed to minimize pedestrian c
 
 ### Step 1: Install Dependencies
 Open your terminal and install the required Python packages:
-\`\`\`bash
+```
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### Step 2: Data Preprocessing
 Run the data cleaning script to merge all municipal crime data into a single harmonized GeoJSON file (converted to UTM EPSG:26910):
-\`\`\`bash
+```
 python Scripts/DataCleaning.py
-\`\`\`
+```
 
 ### Step 3: Run the Routing Algorithm & Visualization
 Launch the main Jupyter Notebook to execute the multimodal routing algorithm, process the network, and render the interactive folium maps:
-\`\`\`bash
+```
 jupyter notebook SafeRouting.ipynb
-\`\`\`
+```
 (Inside the notebook, you can modify the Origin and Destination address queries to generate customized Shortest vs. Safest multimodal paths dynamically.)
 ---
 
